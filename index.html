@@ -15,88 +15,102 @@ limitations under the License.
 ==============================================================================
 -->
 
-<!doctype html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <title>Retinal Disease Classification</title>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="shared/tfjs-examples.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Scholars: Retinal Disease Classification</title>
+    <style>
+      body {
+          font-family: Arial, sans-serif;
+          line-height: 1.6;
+          margin: 0; /* Remove default margin */
+          padding: 0;
+          display: flex;
+          flex-direction: column;
+          min-height: 100vh; /* Ensure the body takes up at least the full viewport height */
+      }
+      header {
+          background: #500101;
+          color: #fff;
+          padding: 10px 0;
+          text-align: center;
+        
+      }
+      .logo {
+          width: 250px; /* Adjust logo size as needed */
+          height: auto;
+          margin-right: 10px;
+      }
+      .container {
+          flex: 1; /* Make the container grow to fill remaining space */
+          max-width: 800px;
+          margin: auto;
+          padding: 20px;
+      }
+      .main-content {
+            margin-bottom: 20px;
+            margin-right: 10px;
+            text-align: left;
+      }
+      footer {
+          background: #500101;
+          color: #fff;
+          text-align: center;
+          padding: 10px 0;
+          width: 100%;
+      }
+  </style>
 </head>
-
-<style>
-
-  .pred-container {
-    margin-bottom: 25px;
-  }
-
-  .pred-container > div {
-    display: inline-block;
-    margin-right: 20px;
-    vertical-align: top;
-  }
-
-  .row {
-    display: table-row;
-  }
-  .cell {
-    display: table-cell;
-    padding-right: 20px;
-  }
-
-  #file-container {
-    margin-bottom: 20px;
-  }
-</style>
-
-
 <body>
-  <div class="tfjs-example-container">
-    <section class='title-area'>
-      <p style="font-family: 'times new roman'; font-size: 50px; color: #5a0303">Retinal Image Disease Classification</p>
-    </section>
-
-
-    <section>
-      <img src="dataset.jpg" style="width: 50%;">
-      <p class='section-head'>Purpose</p>
-      <p>
-        Through image classification and convolutional neural networks, we can classify eye diseases throughout multiple datasets of retina scans. With this teachable AI machine model, accessibility to medical resources can be leveraged for low-resource and developing countries. 
-      </p>
-    </section>
-
-
-    <section>
-      <p class='section-head'>Description</p>
-      <p>
-        Using datasets of retina scans from the Kaggle database, our code compresses the pixels and iterates through each image to determine whether the scan depicts a disease or not... (to be continued)
-      </p>
-    </section>
-
-
-     <section>
-      <p class='section-head'>Status</p>
-      <div id="status"></div>
-    </section>
-
-     <section>
-      <p class='section-head'>Status</p>
-      <div id="status"></div>
-    </section>
-    
-    <section>
-      <p class='section-head'>Model Output</p>
-
-      <div id="file-container" style="display: none">
-        Upload an image: <input type="file" id="files" name="files[]" multiple />
-      </div>
-
-      <div id="predictions"></div>
-
-      <img style="display: none" id="cat" src="ai4all.jpg" width=224 height=224 />
-    </section>
-
-    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.5.2"></script>
-    <script src="index.js"></script>
-  </div>
+    <header>
+        <img src="https://media.licdn.com/dms/image/C5622AQEifm61PFunnA/feedshare-shrink_2048_1536/0/1660748532397?e=2147483647&v=beta&t=0aEC7AeQ6gZ7AIKyllhnx4A_Ry3bQ4GWyx5PTeaJwjk" alt="Logo" class="logo" width="300" height="100" >
+        <h1>Eye Retina Disease Classification</h1>
+    </header>
+    <div class="container">
+        <section class="main-content">
+            <h2>About</h2>
+            <p>This is a simple website created for demonstration purposes.</p>
+        </section>
+        <section>
+            <h2>Model Card</h2>
+            <p>You can contact me at example@email.com.</p>
+        </section>
+        <section>
+          <h2>Sample Image</h2>
+          <img src="path/to/your/image.jpg" alt="Description of the image">
+        </section>
+        <section>
+          <h2>AI Model</h2>
+          <p>You can contact me at example@email.com.</p>
+        </section>
+        <section>
+          <h2>How the Model Works</h2>
+          <p>You can contact me at example@email.com.</p>
+        </section>
+        <section>
+          <h2>Presentation Slideshow</h2>
+          <p>You can contact me at example@email.com.</p>
+        </section>
+        <section>
+          <h2>Contact Us</h2>
+          <img src="file:///Users/carmenung/Desktop/Screenshot%202024-07-18%20at%209.29.34%E2%80%AFAM.png" width="1000" height="550">
+          <p>Malik Traore</p>
+          <p>Carmen Ung</p>
+          <p>Emmy Sumpter</p>
+          <p>Tommy Weng</p>
+          <p>Juan Cruz Field</p>
+          <p>Peya Mowar</p>
+        </section>
+        <section>
+          <h2>How the Model Works</h2>
+          <p>You can contact me at example@email.com.</p>
+        </section>
+      
+    </div>
+    <footer>
+        <p>&copy; 2024 CMU Artificial Intelligence Scholars</p>
+    </footer>
 </body>
+</html>
